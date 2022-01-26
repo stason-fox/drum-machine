@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.App {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drum-machine {
+    display: flex;
+    background-image: linear-gradient(royalblue, rebeccapurple);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+}
+
+.display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.small-display {
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.small-display h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.volume-slider h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.volume-slider {
+    margin: 1.5rem 0;
+}
+
+.drums {
+    display: grid;
+    grid-template: auto auto / repeat(3, 1fr);
+    gap: 1.25rem;
+}
+
+.bank {
+    width: 6.25rem;
+    margin: auto;
+}
+
+.bank h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.select {
+    margin: auto;
+    width: 3rem;
+    height: 1.25rem;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+    background-color: black;
+    margin-top: 0.5rem;
+}
+
+.inner {
+    width: 1.25rem;
+    height: 1.25rem;
+    background: royalblue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
