@@ -1,4 +1,4 @@
-# Drum machine
+# Drum Machine
 
 #### Description: Drum machine with two banks and volume control. Tools used: React, CSS, HTML.
 
